@@ -18,12 +18,6 @@ const users = [
     gender: 'male',
     details: { age: 32, address: '456 Cedar St' },
   },
-  {
-    id: 4,
-    name: 'Jad',
-    gender: 'male',
-    details: { age: 62, address: '789 Pine St' },
-  },
 ];
 type details = {
   age: number;
@@ -36,8 +30,8 @@ type userType = {
   details: details;
 };
 
-const page = () => {
-  return <div></div>;
+const Page = () => {
+  return <div>Page</div>;
 };
 
-export default page;
+export default Page;
